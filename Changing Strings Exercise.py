@@ -17,3 +17,12 @@ elif len(data) < 3:
 elif len(data) >= 3:
     print(data+'ing')
 
+#ADDITIONAL: Write a Python program to count repeated characters in a string.
+
+word=data
+count=0
+
+for key in word:
+    if key == 'a':
+        count=count+1
+print(count)
