@@ -4,8 +4,11 @@
 
 word='antidisestablishmentarianism'
 frkey=word.find('establishment')
-print(frkey)
 enkey=word.find('arianism')
-print(enkey)
-variable=(word[7:20])
-print(variable)
+answer=(word[frkey:enkey])
+print(answer)
+
+word='antidisestablishmentarianism'
+frkey=word.find('establishment')
+answer=(word[frkey:frkey+13])
+print(answer)
